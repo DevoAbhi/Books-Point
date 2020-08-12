@@ -1,0 +1,47 @@
+.btn{
+    border : 1px solid black;
+    border-radius: .5rem;
+    padding: .5rem 1rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn-primary {
+    color: blue;
+     background-color: burlywood;
+}
+
+.btn-danger {
+    color: red;
+    background-color: burlywood;
+    
+}
+button a {
+    text-decoration: none;
+}
+.btn-primary:hover {
+    color:lightblue;
+     background-color: darkblue;
+}
+
+.btn-danger:hover {
+    color:lightcoral;
+     background-color: darkred;
+}
+.btn-row{
+    display: flex;
+    align-items: flex-start;
+}
+.btn-row > * {
+    margin-left: 1rem;
+}
+button {
+    font-size: .8rem !important;
+    font-weight: 500;
+}
+.btn-row a {
+    font-size: .8rem !important;
+    font-weight: 500;
+}
